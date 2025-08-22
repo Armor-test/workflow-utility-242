@@ -1,0 +1,34 @@
+# CODEOWNERS file for workflow-utility-242
+# Global owners - will be requested for all PRs
+* @Armor-test/team-security @Armor-test/grp-search @Armor-test/unit-design
+
+# Directory ownership
+/src/ @Armor-test/dept-api @Armor-test/dept-reliability @Armor-test/squad-ux
+/test/ @Armor-test/grp-api @Armor-test/squad-cloud @Armor-test/squad-reporting
+/pkg/ @Armor-test/unit-governance @Armor-test/team-frontend @Armor-test/squad-api
+/app/ @Armor-test/grp-search @Armor-test/squad-ux
+/models/ @Armor-test/grp-reporting @Armor-test/dept-test
+/pages/ @Armor-test/dept-notifications @Armor-test/squad-research
+/plugins/ @Armor-test/squad-ux @Armor-test/team-logging
+/common/ @Armor-test/squad-cache @Armor-test/dept-logging @Armor-test/team-frontend
+/services/ @Armor-test/unit-governance @Armor-test/grp-api
+/examples/ @Armor-test/dept-api @Armor-test/squad-frontend @Armor-test/team-notifications
+
+# File type ownership
+*.rb @Armor-test/team-reporting @Armor-test/team-core @Armor-test/unit-test
+*.scala @Armor-test/dept-reporting @Armor-test/squad-product @Armor-test/squad-reporting
+*.md @Armor-test/grp-payments @Armor-test/unit-devops @Armor-test/dept-data
+*.go @Armor-test/team-core @Armor-test/grp-api
+*.kt @Armor-test/unit-devops @Armor-test/team-reporting
+*.h @Armor-test/grp-reporting @Armor-test/squad-reporting @Armor-test/team-research
+*.scss @Armor-test/unit-cloud @Armor-test/squad-cache @Armor-test/team-notifications
+*.yml @Armor-test/unit-devops @Armor-test/dept-reliability
+*.rs @Armor-test/squad-apps @Armor-test/squad-search @Armor-test/dept-billing
+*.js @Armor-test/unit-test @Armor-test/squad-apps
+*.sh @Armor-test/team-security @Armor-test/squad-qa @Armor-test/dept-automation
+
+# Security and special files
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/security/ @Armor-test/security @Armor-test/compliance
